@@ -1,0 +1,48 @@
+.main-container 
+{
+    background: linear-gradient(71.17deg, #FEAF00 19.35%, #F8D442 90.12%);
+    height:100vh ;
+    // position: fixed;
+
+    .login-btn 
+    {
+        background-color: var(--mainColor);
+    }
+}
+
+.bar {
+
+position: relative;
+width: 35px;
+height: 0px;
+// left: 570px;
+// top: 190px;
+
+border: 3.5px solid #F8D442;
+transform: rotate(90deg);
+
+}
+
+
+// password show/hide button 
+.example-container mat-form-field + mat-form-field {
+    margin-left: 8px;
+  }
+  
+.properties {
+    border: none;
+    background-color: transparent;
+}
+  .example-right-align {
+    text-align: right;
+  }
+  
+  input.example-right-align::-webkit-outer-spin-button,
+  input.example-right-align::-webkit-inner-spin-button {
+    display: none;
+  }
+  
+  input.example-right-align {
+    -moz-appearance: textfield;
+  }
+  

@@ -1,0 +1,37 @@
+
+<!-- Template driven -->
+<!-- <form #userForm="ngForm" (submit)="submit(userForm)">
+  <mat-form-field class="example-form-field">  
+    <mat-label>Name</mat-label>
+    <input matInput name="name" type="text" [(ngModel)]="userDetails.name" required>
+    <mat-error *ngIf="userForm.touched && userForm.controls['name'].errors?.['required']">
+      Name is <strong>required</strong>
+    </mat-error>
+  </mat-form-field>
+  <mat-form-field class="example-form-field">  
+    <mat-label>Email</mat-label>
+    <input matInput name="email" type="text" [(ngModel)]="userDetails.email">
+  </mat-form-field>
+  <button type="submit">Submit</button>
+</form>
+-->
+
+<!-- <router-outlet></router-outlet> -->
+
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      rel= "stylesheet"
+    /> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.3/angular.min.js"></script> -->
+    <title>Document</title>
+  </head>
+  <body>
+  <router-outlet></router-outlet>
+  </body>
+</html>
